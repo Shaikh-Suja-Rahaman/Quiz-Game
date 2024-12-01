@@ -1,0 +1,101 @@
+.correct{
+    background-color: rgb(238, 254, 212)!important;
+}
+.wrong{
+    background-color: rgb(228, 181, 181)!important;;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #534B62;
+}
+.heading{
+    color: white;
+    background-color: #1B1725;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.submit{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.hide{
+    display: none; 
+}
+.result{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 182, 200);
+    justify-content: center;
+    padding-left: 1rem;
+    /* background-color: grey; */
+    margin : 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid black 5px;
+}
+.question h5{
+    color: black;
+    font-size: 20px;
+    margin: 7px;
+    margin-bottom: 12px;
+}
+.question>.option{
+    color: #1B1725;
+}
+button {
+background-color: #e1ecf4;
+border-radius: 3px;
+border: 1px solid #7aa7c7;
+box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+box-sizing: border-box;
+color: #39739d;
+cursor: pointer;
+display: inline-block;
+font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 1.15385;
+margin: 0;
+outline: none;
+padding: 8px .8em;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+white-space: nowrap;
+margin-bottom: 20px;
+}
+
+button:hover,
+button:focus {
+background-color: #b3d3ea;
+color: #2c5777;
+}
+
+button:focus {
+box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+button:active {
+background-color: #a0c7e4;
+box-shadow: none;
+color: #2c5777;
+}
+.hide{
+display: none;
+}
